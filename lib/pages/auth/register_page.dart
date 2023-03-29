@@ -38,7 +38,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                         const Text(
-                          "Groupie",
+                          "Soiles",
                           style: TextStyle(
                               fontSize: 40, fontWeight: FontWeight.bold),
                         ),
@@ -50,7 +50,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         Image.asset("assets/register.png"),
                         TextFormField(
                           decoration: textInputDecoration.copyWith(
-                              labelText: "Full Name",
+                              labelText: "Aty-joni",
                               prefixIcon: Icon(
                                 Icons.person,
                                 color: Theme.of(context).primaryColor,
@@ -177,7 +177,7 @@ class _RegisterPageState extends State<RegisterPage> {
           await HelperFunctions.saveUserNameSF(fullName);
           nextScreenReplace(context, const HomePage());
         } else {
-          showSnackbar(context, Colors.red, value);
+          showSnackbar(context, Colors.blue, value);
           setState(() {
             _isLoading = false;
           });
