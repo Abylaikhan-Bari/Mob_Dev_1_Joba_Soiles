@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         backgroundColor: Theme.of(context).primaryColor,
         title: const Text(
-          "Groups",
+          "Toptar",
           style: TextStyle(
               color: Colors.white, fontWeight: FontWeight.bold, fontSize: 27),
         ),
@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
             leading: const Icon(Icons.group),
             title: const Text(
-              "Groups",
+              "Toptar",
               style: TextStyle(color: Colors.black),
             ),
           ),
@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
             leading: const Icon(Icons.group),
             title: const Text(
-              "Profile",
+              "Profil",
               style: TextStyle(color: Colors.black),
             ),
           ),
@@ -141,8 +141,8 @@ class _HomePageState extends State<HomePage> {
                   context: context,
                   builder: (context) {
                     return AlertDialog(
-                      title: const Text("Logout"),
-                      content: const Text("Are you sure you want to logout?"),
+                      title: const Text("Şyğu"),
+                      content: const Text("Şyğuğa senımdısız be?"),
                       actions: [
                         IconButton(
                           onPressed: () {
@@ -174,7 +174,7 @@ class _HomePageState extends State<HomePage> {
                 const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
             leading: const Icon(Icons.exit_to_app),
             title: const Text(
-              "Logout",
+              "Şyğu",
               style: TextStyle(color: Colors.black),
             ),
           )
@@ -204,7 +204,7 @@ class _HomePageState extends State<HomePage> {
           return StatefulBuilder(builder: ((context, setState) {
             return AlertDialog(
               title: const Text(
-                "Create a group",
+                "Top qūru",
                 textAlign: TextAlign.left,
               ),
               content: Column(
@@ -245,7 +245,7 @@ class _HomePageState extends State<HomePage> {
                   },
                   style: ElevatedButton.styleFrom(
                       primary: Theme.of(context).primaryColor),
-                  child: const Text("CANCEL"),
+                  child: const Text("BAS TARTU"),
                 ),
                 ElevatedButton(
                   onPressed: () async {
@@ -262,12 +262,12 @@ class _HomePageState extends State<HomePage> {
                       });
                       Navigator.of(context).pop();
                       showSnackbar(
-                          context, Colors.green, "Group created successfully.");
+                          context, Colors.green, "Top sättı qūryldy.");
                     }
                   },
                   style: ElevatedButton.styleFrom(
                       primary: Theme.of(context).primaryColor),
-                  child: const Text("CREATE"),
+                  child: const Text("QŪRU"),
                 )
               ],
             );
@@ -330,7 +330,7 @@ class _HomePageState extends State<HomePage> {
             height: 20,
           ),
           const Text(
-            "You've not joined any groups, tap on the add icon to create a group or also search from top search button.",
+            "Sız eşbır topqa qosylğan joqsyz, top qūru üşın qosu belgışesın türtıñız nemese joğarğy ızdeu tüimesınen ızdeñız.",
             textAlign: TextAlign.center,
           )
         ],

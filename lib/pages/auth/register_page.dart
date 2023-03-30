@@ -44,7 +44,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         ),
                         const SizedBox(height: 10),
                         const Text(
-                            "Create your account now to chat and explore",
+                            "Qazır tırkel de, äñgımege qosyl!",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.w400)),
                         Image.asset("assets/register.png"),
@@ -64,7 +64,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             if (val!.isNotEmpty) {
                               return null;
                             } else {
-                              return "Name cannot be empty";
+                              return "Aty bos bolmauy kerek";
                             }
                           },
                         ),
@@ -90,7 +90,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                         r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
                                     .hasMatch(val!)
                                 ? null
-                                : "Please enter a valid email";
+                                : "Jaramdy elektrondyq poştany engızıñız";
                           },
                         ),
                         const SizedBox(height: 15),
@@ -104,7 +104,7 @@ class _RegisterPageState extends State<RegisterPage> {
                               )),
                           validator: (val) {
                             if (val!.length < 6) {
-                              return "Password must be at least 6 characters";
+                              return "Qūpia söz kemınde 6 tañbadan tūruy kerek";
                             } else {
                               return null;
                             }
@@ -127,7 +127,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(30))),
                             child: const Text(
-                              "Register",
+                              "Tırkelu",
                               style:
                                   TextStyle(color: Colors.white, fontSize: 16),
                             ),
@@ -140,12 +140,12 @@ class _RegisterPageState extends State<RegisterPage> {
                           height: 10,
                         ),
                         Text.rich(TextSpan(
-                          text: "Already have an account? ",
+                          text: "Eseptık jazbañyz bar ma? ",
                           style: const TextStyle(
                               color: Colors.black, fontSize: 14),
                           children: <TextSpan>[
                             TextSpan(
-                                text: "Login now",
+                                text: "Qazır kırıñız",
                                 style: const TextStyle(
                                     color: Colors.black,
                                     decoration: TextDecoration.underline),

@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
                               fontSize: 40, fontWeight: FontWeight.bold),
                         ),
                         const SizedBox(height: 10),
-                        const Text("Login now to see what they are talking!",
+                        const Text("Qazır kır de, äñgımege qosyl!",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.w400)),
                         Image.asset("assets/login.png"),
@@ -69,7 +69,7 @@ class _LoginPageState extends State<LoginPage> {
                                         r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
                                     .hasMatch(val!)
                                 ? null
-                                : "Please enter a valid email";
+                                : "Jaramdy elektrondyq poştany engızıñız";
                           },
                         ),
                         const SizedBox(height: 15),
@@ -83,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                               )),
                           validator: (val) {
                             if (val!.length < 6) {
-                              return "Password must be at least 6 characters";
+                              return "Qūpia söz kemınde 6 tañbadan tūruy kerek";
                             } else {
                               return null;
                             }
@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(30))),
                             child: const Text(
-                              "Sign In",
+                              "Kıru",
                               style:
                                   TextStyle(color: Colors.white, fontSize: 16),
                             ),
@@ -119,12 +119,12 @@ class _LoginPageState extends State<LoginPage> {
                           height: 10,
                         ),
                         Text.rich(TextSpan(
-                          text: "Don't have an account? ",
+                          text: "Eseptık jazbañyz joq pa? ",
                           style: const TextStyle(
                               color: Colors.black, fontSize: 14),
                           children: <TextSpan>[
                             TextSpan(
-                                text: "Register here",
+                                text: "Tırkelıñız",
                                 style: const TextStyle(
                                     color: Colors.black,
                                     decoration: TextDecoration.underline),
