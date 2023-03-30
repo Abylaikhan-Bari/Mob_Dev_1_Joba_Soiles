@@ -1,5 +1,5 @@
-import 'package:chatapp_firebase/helper/helper_function.dart';
-import 'package:chatapp_firebase/service/database_service.dart';
+import 'package:Soiles/helper/helper_function.dart';
+import 'package:Soiles/service/database_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {

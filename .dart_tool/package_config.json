@@ -249,9 +249,9 @@
     },
     {
       "name": "shared_preferences_platform_interface",
-      "rootUri": "file:///C:/Users/Dell/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_platform_interface-2.1.1",
+      "rootUri": "file:///C:/Users/Dell/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_platform_interface-2.2.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "shared_preferences_web",
@@ -332,13 +332,13 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "chatapp_firebase",
+      "name": "Soiles",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-03-28T06:58:48.591019Z",
+  "generated": "2023-03-30T05:14:23.485361Z",
   "generator": "pub",
   "generatorVersion": "2.19.5"
 }

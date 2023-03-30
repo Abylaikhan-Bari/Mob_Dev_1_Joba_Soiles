@@ -1,7 +1,7 @@
-import 'package:chatapp_firebase/helper/helper_function.dart';
-import 'package:chatapp_firebase/pages/auth/login_page.dart';
-import 'package:chatapp_firebase/pages/home_page.dart';
-import 'package:chatapp_firebase/shared/constants.dart';
+import 'package:Soiles/helper/helper_function.dart';
+import 'package:Soiles/pages/auth/login_page.dart';
+import 'package:Soiles/pages/home_page.dart';
+import 'package:Soiles/shared/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
