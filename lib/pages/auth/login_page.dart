@@ -49,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
                         const Text("Qazır kır de, äñgımege qosyl!",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.w400)),
-                        Image.asset("assets/login.png"),
+                        Image.asset("assets/login1.png"),
                         TextFormField(
                           decoration: textInputDecoration.copyWith(
                               labelText: "Email",

@@ -47,7 +47,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             "Qazır tırkel de, äñgımege qosyl!",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.w400)),
-                        Image.asset("assets/register.png"),
+                        Image.asset("assets/register1.png"),
                         TextFormField(
                           decoration: textInputDecoration.copyWith(
                               labelText: "Aty-joni",
